@@ -1,3 +1,10 @@
+import SearchBar from '../components/SearchBar';
+import SideBar from '../components/SideBar';
 export default function Home() {
-  return <h1>Home</h1>;
+  return (
+    <div className='flex'>
+      <SideBar />
+      <SearchBar />
+    </div>
+  );
 }

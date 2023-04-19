@@ -8,7 +8,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'discover-background': '#3366CC',
+        'my-board-blue': '#3366CC',
+        'my-board-white': '#FFF',
+        'my-board-full-white': '#FFFFFF',
+        'my-board-aqua': '#66cccc',
+        'my-board-yellow': '#ffcc33',
+        'my-board-green': '#33cc99',
+      },
+      fontSize: {
+        'my-board-font': '18px',
+        'my-board-font-btn': '14px',
       },
     },
   },
