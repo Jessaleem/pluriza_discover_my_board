@@ -7,7 +7,7 @@ interface LayoutProps {
 
 export default function Layout({ children }: LayoutProps) {
   return (
-    <div className='flex bg-gray-50'>
+    <div className='flex bg-gray-50 min-h-screen'>
       <SideBar />
       <div className='flex-1'>
         <SearchBar />
