@@ -9,8 +9,10 @@ import { cardsData } from '@/utils/cardsData';
 export default function Home() {
   return (
     <article className='p-4'>
-      <div className='flex items-center justify-between py-2'>
-        <h1 className='font-bold text-gray-800'>Dashboard</h1>
+      <div className='flex items-center justify-between pb-6'>
+        <h1 className='font-bold text-my-board-font text-gray-800'>
+          Dashboard
+        </h1>
         <Button className='text-my-board-full-white bg-my-board-blue'>
           Download Resume
         </Button>
