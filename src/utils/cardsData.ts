@@ -24,7 +24,7 @@ export const cardsData = [
     id: 4,
     borderColor: 'border-my-board-yellow',
     textColor: 'text-my-board-yellow',
-    label: 'EARNINGS (PENDING REQUESTS)',
+    label: 'PENDING REQUESTS',
     number: '18',
   },
 ];
