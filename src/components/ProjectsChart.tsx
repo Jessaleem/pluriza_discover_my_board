@@ -21,6 +21,7 @@ ChartJS.register(
 
 export const options = {
   responsive: true,
+  showLines: false,
   indexAxis: 'y' as const,
   layout: {
     padding: {
@@ -34,6 +35,9 @@ export const options = {
     },
   },
   plugins: {
+    datalabels: {
+      align: 'top',
+    },
     legend: {
       display: false,
     },
@@ -50,12 +54,21 @@ export const options = {
           size: 9,
         },
       },
+      grid: {
+        display: false,
+      },
     },
     x: {
       ticks: {
+        callback: function (value: any) {
+          return `${value} %`;
+        },
         font: {
           size: 9,
         },
+      },
+      grid: {
+        display: false,
       },
     },
   },
@@ -69,6 +82,7 @@ export const data = {
     {
       data: labels.map(() => faker.datatype.number({ min: 10, max: 100 })),
       backgroundColor: ['#ff0000', '#ffcc33', '#3366CC'],
+      barThickness: 8,
     },
   ],
 };

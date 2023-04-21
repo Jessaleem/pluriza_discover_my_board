@@ -34,7 +34,7 @@ export default function Home() {
         <div className='flex flex-col col-span-2 bg-my-board-white items-center border-2 border-my-board-white shadow-inner'>
           <div className='bg-gray-50 w-full text-center py-2'>
             <h2 className='text-my-board-blue text-sm font-bold'>
-              Revenue Source
+              Revenue Sources
             </h2>
           </div>
           <div className='pb-5'>

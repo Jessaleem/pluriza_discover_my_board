@@ -31,6 +31,9 @@ export const options = {
   scales: {
     y: {
       ticks: {
+        callback: function (value: any) {
+          return `$ ${value}`;
+        },
         font: {
           size: 9,
         },
